@@ -3,32 +3,29 @@
  * Static Hugo Website
  */
 
- @import "./bootstrap/bootstrap-reboot";
- @import "./bootstrap/bootstrap-grid";
- 
- $color-text: #202020;
- $color-background: white;
+$color-text: #202020;
+$color-background: white;
 
- body {
-     background-color: $color-background;
-     color: $color-text;
-     font-family: "Segoe UI", "Tahoma", "Geneva", "Verdana", sans-serif;
- }
+body {
+    background-color: $color-background;
+    color: $color-text;
+    font-family: "Segoe UI", "Tahoma", "Geneva", "Verdana", sans-serif;
+}
 
- a, a:hover, a:visited {
-    text-decoration: none;
-    color: inherit;
+a, a:hover, a:visited {
+text-decoration: none;
+color: inherit;
 
-    &:hover {
-        text-decoration: underline;
-    }
+&:hover {
+    text-decoration: underline;
+}
 }
 
 img {
-    width: 100%;
+width: 100%;
 }
 
 button, input {
-    background-color: transparent;
-    border: none;
+background-color: transparent;
+border: none;
 }

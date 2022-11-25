@@ -8,4 +8,5 @@ resources/
 static/*
 
 # files
+.hugo_build.lock
 !static/.gitkeep
