@@ -3,6 +3,7 @@
 ## Features
 - Boostrap
 - SCSS
+- Typescript
 
 ## Getting started
 
